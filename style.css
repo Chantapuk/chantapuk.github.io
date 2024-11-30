@@ -1,0 +1,17 @@
+/* use Prompt font from google */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Prompt', sans-serif !important;
+}
+
+.btn.btn-amber {
+  background-color: #b8860b; /* Changed to dark gold */
+  color: #fff;
+}
+.bg-coffee-brown {
+  background-color: #b8860b; /* Changed to dark gold */
+}
+.bg-coffee-brown-light {
+  background-color: #daa520; /* Changed to a lighter gold */
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Sweet Gluttony Bakery</title>
+  <!-- MDB CSS & JS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="assets/image/logo.png" alt="logo" height="60" class="d-inline-block align-text-top">
+        Sweet Gluttony
+      </a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-amber" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Registration Form -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="card">
+          <div class="card-body p-5">
+            <h2 class="text-center mb-5">สมัครสมาชิก</h2>
+            <form>
+              <!-- Name inputs -->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="firstName" class="form-control" />
+                    <label class="form-label" for="firstName">ชื่อ</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="lastName" class="form-control" />
+                    <label class="form-label" for="lastName">นามสกุล</label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="email" class="form-control" />
+                <label class="form-label" for="email">อีเมล</label>
+              </div>
+
+              <!-- Phone input -->
+              <div class="form-outline mb-4">
+                <input type="tel" id="phone" class="form-control" />
+                <label class="form-label" for="phone">เบอร์โทรศัพท์</label>
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="password" class="form-control" />
+                <label class="form-label" for="password">รหัสผ่าน</label>
+              </div>
+
+              <!-- Confirm Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="confirmPassword" class="form-control" />
+                <label class="form-label" for="confirmPassword">ยืนยันรหัสผ่าน</label>
+              </div>
+
+              <!-- Terms checkbox -->
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" id="terms" />
+                <label class="form-check-label" for="terms">
+                  ฉันยอมรับ <a href="#!">เงื่อนไขการใช้งาน</a> และ <a href="#!">นโยบายความเป็นส่วนตัว</a>
+                </label>
+              </div>
+
+              <!-- Submit button -->
+              <a href="login.html" class="btn btn-amber btn-block mb-4">สมัครสมาชิก</a>
+
+              <!-- Login link -->
+              <div class="text-center">
+                <p>เป็นสมาชิกอยู่แล้ว? <a href="login.html">Login</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-coffee-brown-light text-white text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5>Sweet Gluttony Bakery</h5>
+          <p>Crafting delicious moments since 2010.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5>เวลาเปิดทำการ</h5>
+          <p>วันจันทร์ - เสาร์: 7:00น. - 20:00น.<br>วันอาทิตย์: 8:00น. - 18:00น.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5>Contact</h5>
+          <p>
+            123 เขตบางเขน<br>
+            กรุงเทพมหานคร 10500<br>
+            โทร: 02-123-4567<br>
+            อีเมล: info@sweetgluttony.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+</body>
+
+</html>
